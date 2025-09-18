@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "login": "firebase login --no-localhost",
-    "start": "firebase serve"
+    "start": "firebase serve --host 0.0.0.0 --port 5000"
   },
   "repository": {
     "type": "git",
